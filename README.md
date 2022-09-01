@@ -26,7 +26,7 @@ The code is developed with Python 3.7.4.
 cd wangetall/
 python tracker_gym.py [-noplot]
 ````
-Use ````-noplot```` to prevent the algorithm from displaying the plot information. Currently plotting is causing significant slowback of the visualisation of the algorithm. This option should be only used to check the real run-time of the algorithm. 
+Use ````-noplot```` to prevent the algorithm from displaying the plot information. Currently plotting is causing significant slowdown of the algorithm. This option should be only used to check the real run-time of the algorithm. 
 
 
 
@@ -55,9 +55,9 @@ tracker.py | Template for ROS version of the algorithm
 |----|----|
 cluster.py | clustering algorithm
 helper.py | helper functions used troughout the code
-icp.py | algorrithm used for coarse association
+icp.py | algorithm used for coarse association
 init_and_merge.py | algorithm to init and merge new tracks
-jcbb_Cartesian.py | caresian version of jcbb
+jcbb_Cartesian.py | cartesian version of jcbb
 jcbb_numba.py | numba version of jcbb
 jcbb.py | base version of jcbb
 lidarUpdater.py | update lidar information
